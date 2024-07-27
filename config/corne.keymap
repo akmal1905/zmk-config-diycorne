@@ -33,8 +33,8 @@
             bindings = <
 &kp TAB                       &kp Q     &kp W  &kp E     &kp R      &kp T       &kp Y      &kp U      &kp I      &kp O    &kp P     &kp ESC
 &tap_hold LS(LSHFT) CAPSLOCK  &kp A     &kp S  &kp D     &kp F      &kp G       &kp H      &kp J      &kp K      &kp L    &kp SEMI  &kp ENTER
-&kp RCTRL                     &kp Z     &kp X  &kp C     &kp V      &kp B       &kp N      &kp M      &kp COMMA  &kp DOT  &kp FSLH  &kp SQT
-                                               &kp LWIN  &kp BSPC   &mo func2   &mo func1  &kp SPACE    &kp RALT
+&kp RCTRL                     &kp Z     &kp X  &kp C     &kp V      &kp B       &kp N      &kp M      &kp COMMA  &kp DOT  &kp FSLH  &kp APOS
+                                               &kp LWIN  &mo func2  &kp BSPC    &kp SPACE  &mo func1  &kp RALT
             >;
         };
 
@@ -49,9 +49,9 @@
 
         func2 {
             bindings = <
-&kp TAB    &none     &kp UP    &none      &none   &none       &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &kp ESC
-&kp LSHFT  &kp LEFT  &kp DOWN  &kp RIGHT  &none   &none       &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &kp GRAVE
-&kp RCTRL  &none     &none     &none      &none   &none       &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &kp TILDE
+&kp TAB    &none     &kp UP    &none      &none   &none       &none   &kp LBKT   &kp RBKT   &kp MINUS &kp EQUAL  &kp DEL
+&kp LSHFT  &kp LEFT  &kp DOWN  &kp RIGHT  &none   &none       &none   &none      &none      &none     &kp BSLH   &kp ENTER
+&kp RCTRL  &none     &none     &none      &none   &none       &none   &none      &kp COMMA  &kp DOT   &kp FSLH  &kp APOS 
                                &none      &trans  &kp BSPC    &kp SPACE  &trans     &mo btfunc
             >;
         };
