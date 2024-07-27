@@ -34,13 +34,13 @@
 &kp TAB                       &kp Q     &kp W  &kp E     &kp R      &kp T       &kp Y      &kp U      &kp I      &kp O    &kp P     &kp ESC
 &tap_hold LS(LSHFT) CAPSLOCK  &kp A     &kp S  &kp D     &kp F      &kp G       &kp H      &kp J      &kp K      &kp L    &kp SEMI  &kp ENTER
 &kp RCTRL                     &kp Z     &kp X  &kp C     &kp V      &kp B       &kp N      &kp M      &kp COMMA  &kp DOT  &kp FSLH  &kp SQT
-                                               &kp LWIN  &mo func1  &kp BSPC    &kp SPACE  &mo func2  &kp RALT
+                                               &kp LWIN  &kp BSPC   &mo func2   &mo func1  &kp SPACE    &kp RALT
             >;
         };
 
         func1 {
             bindings = <
-&kp TAB     &kp N1   &kp N2   &kp N3     &kp N4  &kp N5      &kp N6     &kp N7    &kp N8    &kp N9    &kp N0     &kp ESC
+&kp TAB     &kp N1   &kp N2   &kp N3     &kp N4  &kp N5      &kp N6     &kp N7    &kp N8    &kp N9    &kp N0     &kp DEL
 &kp LSHFT   &none    &none    &none      &none   &none       &none      &none     &none     &kp UP    &none      &kp ENTER
 &kp RCTRL   &none    &none    &none      &none   &none       &none      &none     &kp LEFT  &kp DOWN  &kp RIGHT  &none
                               &none      &trans  &kp BSPC    &kp SPACE  &trans    &none
