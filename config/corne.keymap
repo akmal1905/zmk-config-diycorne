@@ -50,8 +50,8 @@
         func2 {
             bindings = <
 &kp TAB    &none     &kp UP    &none      &none   &none       &kp PG_UP   &kp LBKT   &kp RBKT   &kp MINUS &kp EQUAL  &kp DEL
-&kp LSHFT  &kp LEFT  &kp DOWN  &kp RIGHT  &none   &none       &kp HOME    &kp END    &none      &kp GRAVE &kp BSLH   &kp APOS
-&kp RCTRL  &none     &none     &none      &none   &none       &kp PG_DN   &kp INSERT &kp COMMA  &kp DOT   &kp FSLH   &kp ENTER
+&kp LSHFT  &kp LEFT  &kp DOWN  &kp RIGHT  &none   &none       &kp HOME    &kp END    &none      &kp GRAVE &kp BSLH   &kp DQT
+&kp RCTRL  &none     &none     &none      &none   &none       &kp PG_DN   &kp LT     &kp COMMA  &kp GT    &kp QMARK  &kp ENTER
                                &none      &trans  &kp BSPC    &kp SPACE   &trans     &mo btfunc
             >;
         };
